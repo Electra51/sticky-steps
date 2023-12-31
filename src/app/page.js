@@ -1,14 +1,12 @@
 "use client";
-import { HomeBanner } from "@/components/Ui/HomeBanner";
-import Footer from "@/components/Ui/layoutComponent/Footer";
-import Header from "@/components/Ui/layoutComponent/Header";
-import { Button } from "keep-react";
+import { HomeBanner } from "@/components/Ui/HomePageUi/HomeBanner";
+import HomeProductPart from "@/components/Ui/HomePageUi/HomeProductPart";
+
 const HomePage = () => {
   return (
     <div>
-      <Header />
       <HomeBanner />
-      <Footer />
+      <HomeProductPart />
     </div>
   );
 };
