@@ -14,7 +14,7 @@ const Header = () => {
           New here? Save 20% with code: YR24
         </Typography>
       </div>
-      <div className="max-w-[1280px] mx-auto">
+      <div className="max-w-[1280px] mx-auto h-[80px] sticky top-0 transition-transform duration-300">
         <Navbar fluid={true}>
           <Navbar.Container className="flex items-center justify-between">
             <Navbar.Container className="flex items-center">
